@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, bug encountered when using Firebase's `onAuthStateChanged` listener. The listener may fail to trigger authentication state changes, particularly under network instability or app lifecycle changes.  The solution addresses this unreliability.
